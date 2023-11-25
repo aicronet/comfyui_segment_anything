@@ -12,6 +12,11 @@ I have ensured consistency with `sd-webui-segment-anything` in terms of output w
 Please ensure that you have installed Python dependencies using the following command:
 ```
 pip3 install -r requirements.txt
+
+#cd ComfyUI\custom_nodes\comfyui_segment_anything
+..\..\..\python_embeded\python.exe -s -m pip install install -r requirements.txt
+..\..\..\python_embeded\python.exe -s -m pip install timm
+
 ```
 
 ## Models
